@@ -1,0 +1,65 @@
+== monomer
+
+  created by Sam Aaron, with contributions from Ullrich Schäfer
+
+This is a Ruby library to interact with the fantastic box of wonder that is the monome (http://monome.org)
+
+It is most definitely work in progress, is evolving rapidly, and is already great fun to play with :-)
+
+This library has been developed and tested using a monome 128. If you have any issues with the 40h, 64 and 256 monomes, please contact me and I'll help as soon as I can.
+
+In order to use this library, you must have monomeserial running. The address pattern prefix will be automatically set to /monomer, and the cable orientation will be automatically set to up.
+
+Enjoy!
+
+== Installation
+
+* install JRuby version 1.1.2 or greater and make sure jruby is in your PATH (http://jruby.codehaus.org/),
+* launch monomeserial,
+* download monomer (the tarball would do just fine),
+* copy the mmj .jar and .jnilib files found in lib/java/ to /Library/Java/Extensions,
+* launch audio midi setup (found in /Applications/Utilities),
+* double-click on the IAC driver icon,
+* click on the little plus button to add a new port,
+* rename the two ports to in and out,
+* click the 'device is online' toggle at the top,
+* using the terminal navigate to the apps directory inside monomer,
+* decide which app to launch,
+* launch it with ./app_name.rb e.g:
+* ./blinken_lights.rb
+* make sure you have something set up to receive the midi (garage band will do),
+* enjoy!
+
+== Caveats
+
+This library has been developed and tested using a monome 128 and on OS X Leopard. If you have any issues with the 40h, 64 and 256 monomes, please contact me and I'll help as soon as I can. Monomer requires the JRuby interpreter. It's much faster (with cool stuff like JIT support) and has a decent thread implementation. Make sure you're using v1.1.2+ If things aren't working on Windows and you know how to fix them, I'll be happy to receive pull requests. Also cable orientation other than up isn't available yet, although it is planned.
+
+== Midi support requirement:
+ - Requires usage of JRuby 1.1.2+
+ - Mac OS X + Java 1.4.2+ (more systems to follow)
+
+
+== LICENSE:
+
+(The MIT License)
+
+Copyright (c) 2007 Tom Preston-Werner
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
