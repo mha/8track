@@ -1,6 +1,6 @@
 8Track:
 
-	Monome 64 application (http://monome.org) created by Martin Alexander Hammer, martin.hammer@gmail.com
+	Monome 64 application (http://monome.org) created by Martin Alexander Hammer, martin.hammer at gmail.com
 	Built on top of the Monomer Ruby library (http://github.com/samaaron/monomer/)
 
 Introduction:
