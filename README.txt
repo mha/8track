@@ -7,7 +7,7 @@ Introduction:
 
 	Version 0.1
 
-	Drumr is a Roland X0X-style MIDI step sequencer with 8 instruments / tracks.
+	8Track is a Roland X0X-style MIDI step sequencer with 8 instruments / tracks.
 	Each instrument has 40 patterns available with individual lengths for polyrythmic fun and a randomization function.
 
 	You can change the currently playing pattern of an instrument without changing the 
