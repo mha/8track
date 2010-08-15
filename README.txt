@@ -16,7 +16,7 @@ Introduction:
 	It is also possible to save all instrument patterns and load them again at a different time, a 
 	feature strangely absent from most other Monome apps I have seen.
 	
-	At the monoment I have only tested the application with a Monome 64 on Mac OS X 10.6.4
+	At the moment I have only tested the application with a Monome 64 on Mac OS X 10.6.4
 	
 	Any feedback is very welcome!
 
